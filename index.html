@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesion</title>
-</head>
-<body>
-    <main>
-        <h3>Iniciar Sesión</h3>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Inicio de Sesion</title>
 
-        <div class="container row">
-            <div class="col-6">
-                <p>Iniciar sesion</p>
-            </div>
-            <div class="col-6">
+        <link rel="stylesheet" href="lib/bootstrap/bootstrap.5.3.3.css" />
+        <script src="lib/bootstrap/bootstrap.5.3.3.js"></script>
 
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <main>
+            <h4 class="text-center p-5">Iniciar sesión</h4>
+
+            <div class="container row">
+                <div class="col-6 bg-white">
+                    <p id="Iniciar">Iniciar sesion</p>
+                    <p>USUARIO</p>
+                    <label for="usuario">Ingresa tu nombre de usuario</label>
+                    <p>CONTRASEÑA</p>
+                    <label for="contraseña">Ingresa tu contraseña</label>
+                    <button class="bg-danger">
+                        <a href=""> INGRESAR </a>
+                    </button>
+                </div>
+                <div class="col-6 bg-danger">
+                    <h4>Bienvenido - Iniciar sesión</h4>
+                    <p>¿No tienes una cuenta?</p>
+                    <button class="bg-danger">
+                        <a href="">Incribirse</a>
+                    </button>
+                </div>
             </div>
-        </div>
-    </main>
-</body>
+        </main>
+    </body>
 </html>
