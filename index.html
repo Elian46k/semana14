@@ -12,23 +12,33 @@
     </head>
     <body>
         <main>
-            <h4 class="text-center p-5">Iniciar sesión</h4>
+            <h4 class="text-center p-5 mb-2">Iniciar sesión</h4>
 
-            <div class="container row">
-                <div class="col-6 bg-white">
-                    <p id="Iniciar">Iniciar sesion</p>
-                    <p>USUARIO</p>
-                    <label for="usuario">Ingresa tu nombre de usuario</label>
-                    <p>CONTRASEÑA</p>
-                    <label for="contraseña">Ingresa tu contraseña</label>
-                    <button class="bg-danger">
-                        <a href=""> INGRESAR </a>
+            <div id="seccion-principal" class="container row">
+                <div class="col-6 bg-white primera-caja">
+                    <p id="iniciar">Iniciar sesión</p>
+                    
+                    <label for="usuario">USUARIO</label>
+                    <input type="text" id="usuario" placeholder="Usuario" class="form-control mb-3" />
+                    
+                    <label for="contraseña">CONTRASEÑA</label>
+                    <input type="password" id="contraseña" placeholder="Contraseña" class="form-control mb-3" />
+
+                    <button class="bg-danger mb-2 p-2 w-100">
+                        <a href="#">Ingresar</a>
                     </button>
+
+                    <div class="text-danger" id="ayuda">
+                        <label for="">
+                            <input type="checkbox"> Recordar contraseña
+                        </label>
+                        <p>Has olvidado tu contraseña?</p>
+                    </div>
                 </div>
-                <div class="col-6 bg-danger">
-                    <h4>Bienvenido - Iniciar sesión</h4>
+                <div class="col-6 bg-danger segunda-caja text-white">
+                    <h2>Bienvenido - Iniciar sesión</h2>
                     <p>¿No tienes una cuenta?</p>
-                    <button class="bg-danger">
+                    <button id="incribirse" class="bg-danger">
                         <a href="">Incribirse</a>
                     </button>
                 </div>

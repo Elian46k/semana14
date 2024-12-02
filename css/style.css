@@ -7,8 +7,40 @@ body{
     background-color: rgb(210, 210, 210);
 }
 
+.seccion-principal{
+    width: 100%;
+    box-shadow: 10px;
+}
+
+.primera-caja{
+    justify-content: center;
+    padding: 40px 30px 40px 30px;
+}
+
+#ayuda{
+    display: flex;
+    justify-content: space-between;
+}
+
+.segunda-caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+#incribirse{
+    border: 2px solid white;
+    padding: 8px 30px 8px 30px;
+}
+
+label{
+    border-radius: 20px;
+}
+
 #iniciar{
-    font-size: 10px;
+    font-size: 1.5rem;
 }
 
 button{
