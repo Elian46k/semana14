@@ -1,25 +1,29 @@
 body{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    min-height: 100vh;
     margin: 0;
-    padding: 80px 0px 80px 0px;
+    padding: 0;
     background-color: rgb(210, 210, 210);
 }
 
-.seccion-principal{
+#seccion-principal{
     width: 100%;
-    box-shadow: 10px;
+    max-width: 800px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .primera-caja{
     justify-content: center;
     padding: 40px 30px 40px 30px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #ayuda{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .segunda-caja {
@@ -28,14 +32,19 @@ body{
     justify-content: center;
     align-items: center;
     padding: 0px 40px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#ingresar{
+    border: none;
 }
 
 #incribirse{
     border: 2px solid white;
-    padding: 8px 30px 8px 30px;
+    padding: 6px 30px 6px 30px;
 }
 
-label{
+input{
     border-radius: 20px;
 }
 
